@@ -5,8 +5,5 @@ scikit-learn==1.0.2
 shap==0.39.0
 matplotlib==3.5.2
 seaborn==0.11.2
-setuptools>=65.0
+setuptools>=60.0
 reportlab==3.6.0 
-# Conditional dependencies
-pandas; python_version >= '3.6'
-python2_specific_package; python_version < '3.0'
